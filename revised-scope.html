@@ -1,0 +1,249 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
+<title>Revised Scope &middot; Lansing Mechanical &middot; AG1 Consulting</title><style>
+:root{--bg:#0d1117;--panel:#161b22;--ink:#e6edf3;--mut:#9aa7b4;--line:#2a3340;--accent:#2f81f7;
+ --good:#3fb950;--bad:#f85149;--gradF:#f85149;--gradD:#e8702a;--gradC:#d29922;--gradB:#3fb950;--gradA:#2ea043;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+.eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:12px;color:var(--mut);font-weight:600}
+header{padding:46px 0 28px;border-bottom:1px solid var(--line);background:radial-gradient(1200px 400px at 70% -10%,rgba(47,129,247,.18),transparent)}
+h1{font-size:30px;font-weight:800;margin:10px 0 6px;letter-spacing:-.01em}
+.sub{color:var(--mut);font-size:15px}
+.hero{display:grid;grid-template-columns:300px 1fr;gap:26px;align-items:center;margin:34px 0 8px}
+@media(max-width:760px){.hero{grid-template-columns:1fr}}
+.gradecard{border:1px solid var(--line);border-radius:18px;padding:26px;text-align:center;position:relative;overflow:hidden}
+.gc-F{background:linear-gradient(160deg,#2a1410,#1c2330)}.gc-D{background:linear-gradient(160deg,#2a1c10,#1c2330)}
+.gc-C{background:linear-gradient(160deg,#2a2410,#1c2330)}.gc-B{background:linear-gradient(160deg,#102a1a,#1c2330)}
+.bigletter{font-size:96px;font-weight:900;line-height:1;position:relative}
+.bl-F{color:var(--gradF);text-shadow:0 0 40px rgba(248,81,73,.45)}
+.bl-D{color:var(--gradD);text-shadow:0 0 40px rgba(232,112,42,.45)}
+.bl-C{color:var(--gradC);text-shadow:0 0 40px rgba(210,153,34,.45)}
+.score100{font-size:18px;color:var(--mut);margin-top:6px;position:relative}
+.heroread h2{font-size:21px;font-weight:800;margin-bottom:10px}
+.heroread p{color:var(--mut);font-size:15.5px}
+.heroread .tag{display:inline-block;margin-top:14px;padding:6px 12px;border:1px solid var(--line);border-radius:999px;font-size:13px;color:var(--ink);background:var(--panel)}
+section{padding:34px 0;border-bottom:1px solid var(--line)}
+.h{font-size:13px;color:var(--mut);text-transform:uppercase;letter-spacing:.14em;font-weight:700;margin-bottom:18px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:760px){.grid{grid-template-columns:1fr}}
+.row{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center}
+.rname{font-weight:600;font-size:15px}
+.bar{height:7px;background:#0b0f15;border-radius:99px;margin-top:9px;overflow:hidden}
+.fill{height:100%;border-radius:99px}
+.badge{font-weight:800;font-size:15px;min-width:46px;height:46px;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#0d1117}
+.gF{background:var(--gradF)}.gD{background:var(--gradD)}.gC{background:var(--gradC)}.gB{background:var(--gradB);color:#06210f}.gA{background:var(--gradA);color:#06210f}
+.sc{font-size:12px;color:var(--mut);margin-top:3px}
+.flag{background:linear-gradient(160deg,#2a1410,#161b22);border:1px solid #6f2a1f;border-radius:14px;padding:20px 22px;margin-bottom:14px}
+.flag .lab{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--bad);font-weight:700;margin-bottom:8px}
+.win{background:linear-gradient(160deg,#0f2417,#161b22);border:1px solid #1f6f3a;border-radius:14px;padding:20px 22px;margin-bottom:14px}
+.win .lab{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--good);font-weight:700;margin-bottom:8px}
+.warn{background:linear-gradient(160deg,#2a2410,#161b22);border:1px solid #6f5a1f;border-radius:14px;padding:20px 22px;margin-bottom:14px}
+.warn .lab{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--gradC);font-weight:700;margin-bottom:8px}
+.flag p,.win p,.warn p{color:var(--mut);font-size:14.5px;margin-bottom:9px}
+.flag p:last-child,.win p:last-child,.warn p:last-child{margin-bottom:0}
+.flag b,.win b,.warn b{color:var(--ink)}
+.flag ul,.win ul,.warn ul{margin:0 0 9px 20px;color:var(--mut);font-size:14.5px}
+.flag li,.win li,.warn li{margin-bottom:6px}
+.code{background:#0b0f15;border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin:12px 0;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:12.5px;line-height:1.85;color:var(--mut);overflow-x:auto}
+.code .ph{color:#ff9d94;font-weight:700}.code .ok{color:#84e0a8;font-weight:700}.code .c{color:#5b6672}
+.cmp{width:100%;border-collapse:collapse;font-size:14px;background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.cmp th{text-align:left;padding:11px 14px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut);border-bottom:1px solid var(--line);font-weight:700}
+.cmp td{padding:11px 14px;border-bottom:1px solid var(--line);color:var(--mut);vertical-align:top}
+.cmp tr:last-child td{border-bottom:none}.cmp td b{color:var(--ink)}.cmp tr.you td{background:#241a12}
+.cmp .yes{color:var(--good);font-weight:700}.cmp .no{color:var(--bad);font-weight:700}
+.opp{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media(max-width:760px){.opp{grid-template-columns:1fr}}
+.ocard{background:linear-gradient(160deg,#0f2417,#161b22);border:1px solid #1f6f3a;border-radius:14px;padding:20px;text-align:center}
+.ocard .lab{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--mut)}
+.ocard .big{font-size:30px;font-weight:900;color:var(--good);margin:8px 0 2px}
+.ocard .small{font-size:13px;color:var(--mut)}
+.oppnote{color:var(--mut);font-size:14px;margin-top:14px}.oppnote b{color:var(--ink)}
+.arrow{display:flex;align-items:center;justify-content:center;gap:18px;margin:6px 0 2px;flex-wrap:wrap}
+.pill{font-size:60px;font-weight:900;line-height:1}
+.pill.from-F{color:var(--gradF)}.pill.from-D{color:var(--gradD)}.pill.from-C{color:var(--gradC)}
+.pill.to{color:var(--gradA)}
+.pilllab{font-size:12px;color:var(--mut);text-align:center;text-transform:uppercase;letter-spacing:.1em}
+.ar{font-size:34px;color:var(--mut)}
+ul.road{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:760px){ul.road{grid-template-columns:1fr}}
+ul.road li{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:8px;padding:11px 14px;font-size:14.5px}
+.road2 li{border-left-color:var(--good)}
+.cta{text-align:center;padding:40px 0 56px}
+.cta h2{font-size:22px;font-weight:800;margin-bottom:8px}
+.cta p{color:var(--mut);font-size:15px}
+footer{color:var(--mut);font-size:12.5px;text-align:center;padding:22px 0 40px;line-height:1.7}
+.gscale{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:26px 26px 20px;margin-top:16px}
+.gscale .gtitle{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--mut);font-weight:700;margin-bottom:26px;text-align:center}
+.gtrack{position:relative;height:14px;border-radius:8px;background:linear-gradient(90deg,#f85149 0%,#f85149 18%,#e3833c 34%,#d4a72c 52%,#7ec46a 74%,#3fb950 100%);margin:0 4px}
+.gmark{position:absolute;top:-46px;transform:translateX(-50%);text-align:center;white-space:nowrap}
+.gmark .gm-lab{font-size:10.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--mut);font-weight:700}
+.gmark .gm-val{font-size:19px;font-weight:900;line-height:1.15}
+.gmark:after{content:"";position:absolute;left:50%;top:100%;width:2px;height:22px;transform:translateX(-50%);background:currentColor;opacity:.75}
+.gmark.now{color:var(--bad)}.gmark.now .gm-val{color:var(--bad)}
+.gmark.proj{color:var(--good)}.gmark.proj .gm-val{color:var(--good)}
+.gmark.proj{top:auto;bottom:-52px}
+.gmark.proj:after{top:auto;bottom:100%}
+.gdot{position:absolute;top:50%;width:16px;height:16px;border-radius:50%;transform:translate(-50%,-50%);border:3px solid #0d1117}
+.gdot.now{background:var(--bad)}.gdot.proj{background:var(--good)}
+.gticks{display:flex;justify-content:space-between;margin:66px 4px 0;font-size:11px;letter-spacing:.08em;color:var(--mut);font-weight:700}
+@media(max-width:620px){.gmark .gm-lab{font-size:9px}.gmark .gm-val{font-size:16px}}
+
+/* ---------- injected asset nav ---------- */
+/* display/padding/margin are declared explicitly so a page carrying its own bare
+ nav{} element rule (concept mockups do) cannot restyle the AG1 bar. */
+.agnav{display:block;padding:0;margin:0;position:sticky;top:0;z-index:80;background:rgba(13,17,23,.92);backdrop-filter:saturate(1.5) blur(10px);border-bottom:1px solid var(--line)}
+.agnav .inner{max-width:1080px;margin:0 auto;padding:0 22px;display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.agnav a{display:inline-block;padding:12px 14px;font-size:14px;font-weight:600;color:var(--mut);text-decoration:none;border-bottom:2px solid transparent;transition:color .15s,border-color .15s}
+.agnav a:hover{color:var(--ink);border-bottom-color:var(--accent)}
+.agnav a.on{color:var(--ink);border-bottom-color:var(--accent)}
+.agnav a.ext{color:var(--accent)}
+.agnav a.ext:hover{color:#fff}
+@media(max-width:560px){.agnav .inner{padding:0 14px}.agnav a{padding:10px 9px;font-size:13px}}
+</style></head><body>
+<nav class="agnav"><div class="inner"><a href="assets.html" class="on">All Assets</a><a href="./">Audit</a><a href="competitors.html">Competitors</a><a href="https://andrei170.github.io/lansing-mechanical-demo/">Concept Site</a></div></nav>
+
+<header>
+ <div class="wrap">
+ <div class="eyebrow">Revised scope &middot; Wednesday 7 October</div>
+ <h1>You Are Not Buying Leads. You Are Buying Back Four Months You Already Pay For.</h1>
+ <div class="sub">Lansing Mechanical LLC &middot; revised after our call of 6 October &middot; nothing on this page is priced</div>
+
+ </header>
+<section><div class="wrap"><div class="h">What changed, and why</div>
+<div class="ocard" style="text-align:left">
+<p>On our call I said I would <b>go back and alter the scope and the price</b>, because I did not
+want to charge you for something you do not need. This is that.</p>
+<p><b>Two things came out of the call that changed it:</b></p>
+<ul>
+<li>Your problem is <b>not</b> that summer is quiet. Summer is at capacity. Your problem is
+<b>October through January</b>.</li>
+<li>You have been sold <b>leads</b> before and it did not work. So the thing I am proposing is
+not leads.</li>
+</ul>
+</div></div></section>
+
+<section><div class="wrap"><div class="h">Your numbers, as you gave them to me</div>
+<div class="row" style="text-align:left">
+<table style="width:100%;border-collapse:collapse">
+<tr><th style="text-align:left;padding:9px 10px">&nbsp;</th>
+<th style="text-align:left;padding:9px 10px">What you said</th></tr>
+<tr><td style="padding:9px 10px"><b>Summer</b></td>
+<td style="padding:9px 10px">About <b>10 calls a day</b>, roughly <b>50 service calls a
+week</b></td></tr>
+<tr><td style="padding:9px 10px"><b>October to January</b></td>
+<td style="padding:9px 10px"><b>"We may only have one or two"</b> a day</td></tr>
+<tr><td style="padding:9px 10px"><b>What you could handle in winter</b></td>
+<td style="padding:9px 10px"><b>"Easily five to 10 a day during that time"</b></td></tr>
+<tr><td style="padding:9px 10px"><b>Installs</b></td>
+<td style="padding:9px 10px">Two a week, and <b>consistent all year</b></td></tr>
+<tr><td style="padding:9px 10px"><b>Average ticket</b></td>
+<td style="padding:9px 10px">About <b>$500</b></td></tr>
+<tr><td style="padding:9px 10px"><b>The team</b></td>
+<td style="padding:9px 10px">Tyler, Jimmy, Kane and Blake, plus your husband, plus you</td></tr>
+<tr><td style="padding:9px 10px"><b>Trading</b></td>
+<td style="padding:9px 10px"><b>16 years.</b> Trane and Mitsubishi. Revenue consistent rather
+than growing</td></tr>
+</table>
+</div></div></section>
+
+<section><div class="wrap"><div class="h">The thing I did not say well enough on the call</div>
+<div class="ocard" style="text-align:left">
+<p><b>Your payroll does not drop in October.</b> Four technicians and your husband are paid through
+October, November, December and January while the work falls from ten calls a day to one or
+two.</p>
+<p><b>So a winter service call is worth considerably more to you than a summer one.</b> In summer
+you are at capacity, and more demand simply queues. <b>In winter the capacity is already bought,
+already paid for, and sitting idle.</b></p>
+<p>On your own figures, thirteen weeks of November to January at <b>twenty calls a week instead of
+about seven</b> &mdash; still well inside the five to ten a day you told me you can handle &mdash;
+is in the region of <b>170 extra service calls</b>. At your <b>$500</b> average ticket that is
+roughly <b>$85,000</b> of revenue that does not currently exist.</p>
+<p><b>&#9888; That is multiplication of your numbers to show the size of the gap. It is not a
+forecast, a projection or a promise, and I am not going to dress it up as one.</b> I do not know
+your conversion rate, your costs or your margins, and anyone who puts a predicted figure in front
+of you after one call is making it up.</p>
+</div></div></section>
+
+<section><div class="wrap"><div class="h">You asked me how I guarantee the leads are not bogus.
+Here is my honest answer.</div>
+<div class="row" style="text-align:left">
+<p><b>I am not going to guarantee that.</b> It is the same sentence the last company said to you,
+and you already know what it was worth.</p>
+<p><b>What I will do instead is make it so you do not have to trust me.</b></p>
+<p>Here is why the last one failed, mechanically rather than as a complaint. <b>You paid per
+lead</b> &mdash; a name and a phone number. That company got paid whether the person wanted
+anything or not, which means <b>their incentive was volume and yours was revenue</b>. Those two
+things were never pointed in the same direction.</p>
+<p><b>What I am proposing is a different unit.</b> An enquiry that arrives with the job type, the
+timeframe and the zip code attached, through a form on your own website, recorded with its source.
+And:</p>
+<ul>
+<li>You will be able to <b>see every enquiry, where it came from, and whether it was junk</b>
+&mdash; within about two weeks, because right now <b>your site has no form and no tracking at all,
+so you can see nothing</b>.</li>
+<li>If the enquiries are poor, <b>you will know before you have spent much</b>, and so will I.</li>
+<li>You already told me you value the automatic reply, because <b>"at least somebody's going to get
+back to them, so they don't feel like they're not being answered."</b> That is part of this, and it
+answers for you at the times you cannot.</li>
+</ul>
+</div></div></section>
+
+<section><div class="wrap"><div class="h">The order I would do it in</div>
+<ul class="road">
+<li><b>First, so that anything after it is measurable.</b> A proper enquiry form on every page, the
+phone number tappable everywhere, analytics and conversion tracking installed, and the placeholder
+text taken off your homepage. <b>Nothing can be judged until this exists.</b></li>
+<li><b>Second, the pages that do the selling.</b> Your reviews are on Google and not on your site.
+Your licence, your warranty and the fact that you are a Trane and Mitsubishi dealer are not stated
+where a buyer looks. And your own words on the call &mdash; <b>"we're not like Joe and his pickup
+truck"</b> &mdash; are not anywhere on the website at all. <b>They should be.</b></li>
+<li><b>Third, and only then, the slow season.</b> Advertising aimed at October through January,
+switched on with tracking already in place, so that from the first week you can see what it
+costs and what it books.</li>
+</ul>
+<div class="ocard" style="text-align:left;margin-top:14px">
+<p><b>&#9888; Why the order and not all at once:</b> if the advertising goes first, you end up in
+exactly the position you were in before &mdash; money leaving, no way to tell what it bought. <b>I
+would rather you be able to fire me in week three on evidence than keep me on faith.</b></p>
+</div></div></section>
+
+<section><div class="wrap"><div class="h">What you should judge this on</div>
+<div class="row" style="text-align:left">
+<p><b>Booked jobs per month, November to January, against last winter.</b></p>
+<p>&#9888; <b>You cannot currently make that comparison</b>, because nothing has ever recorded it.
+That is not a criticism; it is the single best reason to put the measurement in first.</p>
+<p>&#11088; <b>And one thing I will not ask you to judge it on: how the website looks.</b> You said
+it yourself and I agree with you. Simple scales. Fancy fails.</p>
+</div></div></section>
+
+<section><div class="wrap"><div class="h">What this page deliberately does not contain</div>
+<div class="row" style="text-align:left">
+<ul>
+<li><b>No price.</b> We will go through the revised scope and the number together on the call, and
+I would rather you heard it from me with the reasoning than read it off a page.</li>
+<li><b>No guarantee</b>, for the reason above.</li>
+<li><b>No predicted number of leads, cost per lead, or ranking.</b> You have no baseline, so any
+figure I gave you today would be invented.</li>
+</ul>
+</div></div></section>
+<footer>
+ <div class="wrap">
+ Prepared by Andrei Givero &middot; AG1 Consulting &middot; 30 September 2026, for Kristina Lansing at Lansing
+ Mechanical LLC, 921 Fourth St, Graham, TX 76450.
+ <b>Every statement about lansingmechanicaltx.com was read from that site's own served pages and published
+ sitemap on 30 September 2026 and is reproducible. Items recorded as &ldquo;not found&rdquo; describe what a
+ static read of the served HTML returned and are not proof of absence.</b>
+ <b>&#9888; The concept site is a design proposal. It is NOT live and NOT published as Lansing Mechanical's
+ website, and every customer and review on it is a marked placeholder containing no invented content.</b>
+ <b>&#9888; AG1 has NOT seen or assessed the work of any previous lead generation supplier. Nothing in this set
+ of documents describes it.</b>
+ <b>&#9888; Competitor observations describe those firms' own served pages on the date measured and are not
+ statements about their quality, pricing or performance.</b>
+ <b>&#9888; No ranking, enquiry, call, booking or revenue outcome is promised, forecast or guaranteed anywhere in
+ these documents.</b>
+ Product and company names are used for identification only and belong to their respective owners.
+ </div>
+</footer>
+</body></html>
