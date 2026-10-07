@@ -101,13 +101,41 @@ footer{color:var(--mut);font-size:12.5px;text-align:center;padding:22px 0 40px;l
 .agnav a.ext{color:var(--accent)}
 .agnav a.ext:hover{color:#fff}
 @media(max-width:560px){.agnav .inner{padding:0 14px}.agnav a{padding:10px 9px;font-size:13px}}
+
+/* AG1 card system, matched to this pack's dark theme. Added 7 Oct: these classes were used
+   on every new page and defined on none, so the cards rendered as plain text. */
+.card{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--accent);
+border-radius:12px;padding:18px 20px;margin:0 0 14px}
+.card.bad{border-left-color:var(--bad)}
+.card.warn{border-left-color:var(--gradC)}
+.card.note{border-left-color:var(--accent);background:#111a27}
+.card.good{border-left-color:var(--good)}
+.card .lab{display:block;font-size:12.5px;font-weight:800;text-transform:uppercase;
+letter-spacing:.08em;color:var(--ink);margin-bottom:10px}
+.card p{color:var(--mut);font-size:15px;margin:0 0 10px}
+.card p:last-child{margin-bottom:0}
+.card ul{margin:0 0 10px 20px}
+.card ul li{background:none;border:0;border-radius:0;padding:0;margin-bottom:7px;
+color:var(--mut);font-size:14.5px}
+.card i{color:var(--ink)}
+.card a,section .wrap p a,section .wrap li a,section .wrap td a{display:inline;padding:0;
+border:0;color:var(--accent);text-decoration:underline;font-weight:600}
+table{width:100%;border-collapse:collapse;margin:6px 0 4px;font-size:14px}
+th{text-align:left;padding:10px 12px;color:var(--ink);font-weight:700;
+border-bottom:2px solid var(--line);background:#0f141b}
+td{padding:10px 12px;border-bottom:1px solid var(--line);color:var(--mut);vertical-align:top}
+tr:last-child td{border-bottom:0}
+.row table td,.row table th{padding:10px 12px}
+.agnav .inner{flex-wrap:wrap}
+@media(max-width:760px){table{font-size:13px}th,td{padding:8px 9px}
+.card{padding:15px 15px}}
 </style></head><body>
-<nav class="agnav"><div class="inner"><a href="revised-scope.html">Revised scope</a><a href="assets.html" class="on">All Assets</a><a href="./">Audit</a><a href="competitors.html">Competitors</a><a href="https://andrei170.github.io/lansing-mechanical-demo/">Concept Site</a></div></nav>
+<nav class="agnav"><div class="inner"><a href="./">Audit</a><a href="assets.html">All Assets</a><a href="revised-scope.html">Revised scope</a><a href="competitors.html">Competitors</a><a href="pricing.html" class="on">The two options</a><a href="campaigns.html">Campaign plan</a><a href="plan.html">First 30 days</a><a href="report.html">Monthly report</a><a href="https://andrei170.github.io/lansing-mechanical-demo/" target="_blank" rel="noopener">Concept Site &nearr;</a></div></nav>
 
 <header>
  <div class="wrap">
  <div class="eyebrow">The two options &middot; 7 October 2026</div>
- <h1>Five Extra Jobs In A Year. You Take Ten Calls A Day In Summer.</h1>
+ <h1>About 36 Service Calls A Year Covers It. Your Winter Has Room For About 170.</h1>
  <div class="sub">Lansing Mechanical LLC &middot; prepared for Kristina &middot; AG1 Consulting</div>
 
  <div class="hero">
@@ -173,36 +201,41 @@ four pages that sell four different kinds of work.</b> &#9888; <b>Option A fixes
 what you already have. Option B gives you somewhere to send winter traffic</b>, which matters
 because of the next card.</p></div>
 
-<div class="card bad"><span class="lab">&#128308;&#128308; The timing, and it is the reason we
-are having this conversation in October rather than March</span>
-<p>You told us: <b>ten calls a day in summer, one or two in winter</b>.</p>
-<p>&#11088;&#11088; <b>The accepted practice in this trade is to start six to eight weeks before
-a season, not during it. For winter heating that window is early October.</b> <b>We are inside
-it right now.</b></p>
-<p>&#9888;&#9888; <b>We have to be straight with you about one thing we got wrong.</b> We
-initially thought commercial refrigeration would carry you through winter. <b>Checking it
-properly, Texas refrigeration failures peak May to August too</b>, when ambient heat pushes
-compressors past their design capacity. <b>So refrigeration is a summer business as well</b>,
-and building that page now is about <b>ranking before May</b>, not about January revenue.</p>
-<p>&#128308; <b>So the honest winter plan is heating work and maintenance plans</b>, and the
-honest statement about January is that <b>no amount of advertising creates demand for air
-conditioning in a Texas winter.</b> &#11088; <b>Which is why the monthly fee is not flat.</b></p>
-</div>
+<div class="card bad"><span class="lab">&#128308;&#128308; The timing, and why this
+is a conversation for October</span>
+<p>You told us: <b>ten calls a day in summer, and one or two a day from October to January.</b></p>
+<p>&#11088;&#11088; <b>Your quiet season is not coming. It has started.</b> Your four technicians
+and your husband are paid through October, November, December and January whether the phone rings
+or not. <b>Every week this waits is another week of capacity you have already bought sitting
+idle.</b></p>
+<p>&#9888;&#9888; <b>One thing we got wrong and want to correct.</b> We first thought commercial
+refrigeration could carry you through winter. <b>Checked properly, Texas refrigeration failures
+peak May to August</b>, when the heat pushes compressors past their design capacity, so it is a
+summer business too. <b>We build that page now so it is ranking before May, not for January
+revenue.</b></p>
+<p>&#128308; <b>And no amount of advertising creates demand for air conditioning in a Texas
+winter.</b> The winter work is service calls: heating checks, tune-ups and maintenance plans,
+<b>which is exactly the kind of call your idle technicians can take.</b></p></div>
 
-<div class="card"><span class="lab">&#11088; The monthly, and the good deal you asked for</span>
+<div class="card"><span class="lab">&#11088; The monthly, and the good deal you
+asked for</span>
 <table><thead><tr><th>When</th><th>Management</th><th>Why</th></tr></thead><tbody>
-<tr><td><b>November to February</b></td><td><b>$950 a month</b></td>
-<td>Your dead months. <b>Less spend to manage, so less to charge.</b> The work is heating,
-maintenance plans and getting you ranked before May</td></tr>
-<tr><td><b>March to October</b></td><td><b>$1,500 a month</b></td>
-<td>Your season. Full management, full attention, and the months that have to pay for the
-year</td></tr>
+<tr><td><b>October to January</b>, your quiet months</td><td><b>$950 a month</b></td>
+<td>The months you told us drop to one or two calls a day. <b>Less to manage, so less to
+charge.</b> The work is heating, tune-ups and maintenance plans</td></tr>
+<tr><td><b>February to September</b>, your season</td><td><b>$1,500 a month</b></td>
+<td>Full management and full attention, in the months that carry your year</td></tr>
 </tbody></table>
-<p style="margin-top:12px">&#9888; <b>Advertising budget is separate and is paid by you, direct
-to Google or Meta, on your own card.</b> <b>We never touch your money.</b> <b>You set the figure and you can change it any month</b>, and we will recommend a starting point when you ask for one. &#11088; <b>It is deliberately not printed here, because the right number depends on which option you take and on what you want back.</b></p>
-<p>&#11088;&#11088; <b>That seasonal split is the deal.</b> &#9888; <b>It is not a discount we
-invented to close you.</b> It is lower because there genuinely is less to do in January, and
-<b>every agency that quotes you one flat number for twelve months is charging you full price to
+<p style="margin-top:12px">&#9888; <b>Your first October is the build month</b>, the one-time
+option you choose. The monthly starts after it.</p>
+<p>&#9888; <b>Advertising budget is separate and is paid by you, direct to Google or Meta, on your
+own card.</b> <b>We never touch your money</b>, and we are never the ones deciding how much of it
+is at risk. <b>You set the figure, you can change it any month, and we will recommend a starting
+point when you ask for one.</b> &#11088; <b>It is deliberately not printed here, because the right
+number depends on which option you take and on what you want back.</b></p>
+<p>&#11088;&#11088; <b>That seasonal split is the deal.</b> &#9888; <b>It is not a discount
+invented to close you.</b> It is lower because there genuinely is less to do in your quiet months,
+and <b>anyone quoting you one flat number for twelve months is charging you full price to
 advertise into an empty market.</b></p>
 <p>&#128308; <b>Month to month. No contract, no tie-in, and you own the ad account, the tracking
 and everything we build.</b></p></div>
@@ -220,11 +253,11 @@ data and the ad account, which is in your name, not ours. <b>Worst case you paid
 website that finally works and you found out where your leads come from after sixteen
 years.</b></p></div>
 
-<div class="card"><span class="lab">&#11088; And if you do carry on, the cheap months come
-first</span>
+<div class="card"><span class="lab">&#11088; And if you do carry on, the cheap
+months come first</span>
 <ul>
-<li><b>You start in October. November through February is the lower rate.</b> &#11088; <b>That is
-four months and four reports before you ever pay a full-season month</b></li>
+<li><b>Your first October is the build. November, December and January are the lower rate.</b>
+&#11088; <b>That is three months and three reports before you ever pay a full-season month</b></li>
 <li><b>If it is not working you will know by the second report</b>, not the second year</li>
 <li><b>Month to month throughout.</b> No contract, no notice period, no cancellation fee</li>
 </ul></div>
@@ -312,23 +345,29 @@ you are careful</td></tr>
 <tr><td><b>Doing all of it in your quiet season</b></td>
 <td>&#11088;&#11088; <b>Nothing is disrupted, because there is nothing to disrupt.</b> Every one
 of these is harder, slower and dearer to do in July</td></tr>
-</tbody></table></div><div class="card bad"><span class="lab">&#128308;&#128308; What has to happen for this to pay
-for itself, in jobs</span>
-<p>&#9888;&#9888; <b>We never asked what an average job pays you, so we are not going to pretend
-we know.</b> <b>Find your row.</b> The table assumes a <b>30 per cent gross margin</b>, which is
-conservative for this trade.</p>
-<table><thead><tr><th>If an average job is</th><th>Gross margin on it</th>
-<th>Jobs to cover month one ($3,000)</th><th>Jobs to cover a $1,500 month</th>
-<th>Extra jobs needed across a full year</th></tr></thead><tbody>
-<tr><td><b>$4,000</b></td><td>$1,200</td><td><b>2.5</b></td><td><b>1.2</b></td><td><b>16</b></td></tr><tr><td><b>$6,000</b></td><td>$1,800</td><td><b>1.7</b></td><td><b>0.8</b></td><td><b>11</b></td></tr><tr><td><b>$8,000</b></td><td>$2,400</td><td><b>1.2</b></td><td><b>0.6</b></td><td><b>8</b></td></tr><tr><td><b>$10,000</b></td><td>$3,000</td><td><b>1.0</b></td><td><b>0.5</b></td><td><b>6</b></td></tr><tr><td><b>$12,000</b></td><td>$3,600</td><td><b>0.8</b></td><td><b>0.4</b></td><td><b>5</b></td></tr>
+</tbody></table></div><div class="card bad"><span class="lab">&#128308;&#128308; What has to happen for this
+to pay for itself, on your own numbers</span>
+<p>You told us your <b>average ticket is about $500.</b> So this is measured in service
+calls, at your price.</p>
+<table><thead><tr><th>What it covers</th><th>Fee</th><th>Service calls at $500 to cover it
+</th></tr></thead><tbody>
+<tr><td>The build, month one</td><td>$2,200 or $3,000</td><td><b>5 or 6</b></td></tr>
+<tr><td>A quiet month, October to January</td><td>$950</td><td><b>2</b></td></tr>
+<tr><td>A season month, February to September</td><td>$1,500</td><td><b>3</b></td></tr>
+<tr><td><b>Your first full year</b>, build plus 3 quiet and 8 season months</td>
+<td>$17,850</td><td><b>36</b></td></tr>
 </tbody></table>
-<p style="margin-top:12px">&#11088;&#11088; <b>At an $8,000 job you need roughly five extra jobs
-across an entire year to break even on the management fee.</b> <b>You take ten calls a day in
-summer and told us you could handle five to ten more.</b></p>
-<p>&#9888; <b>This is a break-even calculation and nothing more.</b> It says what the hurdle is.
-<b>It does not say we will clear it, and we are not promising that we will.</b> The year column
-covers one month at $3,000 and eleven at $1,500; <b>on the seasonal rate above it is lower
-still</b>.</p>
+<p style="margin-top:12px">&#11088;&#11088; <b>About 36 service calls across a whole year covers
+everything.</b> &#11088; <b>Your own figures put the idle capacity in a single winter, November
+to January, at about 170.</b></p>
+<p>&#9888;&#9888; <b>Two honest caveats.</b> First, <b>that is revenue, not profit</b>, and we do
+not know your costs or margins. <b>But in your quiet months your technicians are already paid</b>,
+so most of a winter call's revenue is margin rather than new cost, which is the whole argument for
+starting in October. Second, <b>this says what the hurdle is. It does not say we will clear it,
+and we are not promising that we will.</b></p>
+<p>&#9888; <b>Installs are not in these figures.</b> You told us they run at two a week all year,
+so they are not the winter gap, and we do not have your install price. <b>One install would cover
+several months on its own</b>, but we would rather not use a number we have not got.</p>
 <p>&#9888; <b>Advertising budget is on top</b> and is not in these figures, because it is paid to
 the platforms rather than to us.</p></div>
 
