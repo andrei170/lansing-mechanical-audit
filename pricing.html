@@ -129,6 +129,23 @@ tr:last-child td{border-bottom:0}
 .agnav .inner{flex-wrap:wrap}
 @media(max-width:760px){table{font-size:13px}th,td{padding:8px 9px}
 .card{padding:15px 15px}}
+</style><style>
+/* option cards, same layout as the F&G pricing sheet, dark theme */
+.opt{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0 14px}
+.o{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:24px 23px 20px;position:relative}
+.o.pick{border:2px solid var(--accent);box-shadow:0 4px 24px rgba(47,129,247,.18)}
+.o .tag{position:absolute;top:-12px;left:21px;background:var(--accent);color:#fff;font-size:11px;font-weight:800;letter-spacing:.9px;text-transform:uppercase;padding:4px 10px;border-radius:999px}
+.o h3{margin:0 0 3px;font-size:19px;color:var(--ink)}
+.o .sub2{color:var(--mut);font-size:13.5px;margin-bottom:13px}
+.o .px{font-size:38px;font-weight:800;color:var(--ink);line-height:1.1;letter-spacing:-1px}
+.o .px small{font-size:14px;font-weight:700;color:var(--mut);letter-spacing:0}
+.o .pay{color:var(--mut);font-size:13px;margin-top:4px}
+.o ul{margin:14px 0 0 19px;padding:0}
+.o ul li{background:none;border:0;padding:0;margin-bottom:8px;font-size:14.5px;color:var(--mut)}
+.o .why{margin-top:14px;padding-top:13px;border-top:1px solid var(--line);font-size:14px;color:var(--mut)}
+.mstrip{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 14px}
+.mstrip .o .px{font-size:30px}
+@media(max-width:760px){.opt,.mstrip{grid-template-columns:1fr}.o .px{font-size:32px}}
 </style></head><body>
 <nav class="agnav"><div class="inner"><a href="./">Audit</a><a href="assets.html">All Assets</a><a href="revised-scope.html">Revised scope</a><a href="competitors.html">Competitors</a><a href="pricing.html" class="on">The two options</a><a href="campaigns.html">Campaign plan</a><a href="plan.html">First 30 days</a><a href="report.html">Monthly report</a><a href="https://andrei170.github.io/lansing-mechanical-demo/" target="_blank" rel="noopener">Concept Site &nearr;</a></div></nav>
 
@@ -155,136 +172,88 @@ would rather put money into your guys than into something that may or may not re
 &#11088; <b>That is a fair position, so this page is built to be judged on arithmetic rather
 than on enthusiasm.</b> Every figure below is yours or is marked as an assumption.</p></div>
 
-<div class="card bad"><span class="lab">&#128308;&#128308; Your question first, because
-everything else depends on the answer</span>
-<p>You asked: <i>"tell me how you actually guarantee that it's not bogus leads."</i></p>
-<p>&#128308; <b>We cannot guarantee that, and anyone who tells you otherwise is guessing.</b></p>
-<p>&#11088;&#11088; <b>But we are not selling you leads, and that is the whole difference.</b>
-The pay-per-lead company sixteen years ago sold you names. Trane sends you names. <b>You own
-none of it, so when the names are poor you have no way to see why and no way to change it.</b></p>
-<p>&#11088; <b>Here, the ad account is yours, the tracking is yours and the data is yours.</b>
-<b>The tracking is the thing that tells you which leads are bogus</b>, which page they came from
-and what they searched. &#9888; <b>You currently have none of that</b>, which is exactly why the
-last two attempts could never be diagnosed, only abandoned.</p></div>
-
-<div class="card warn"><span class="lab">&#9888;&#9888; About Hibu, since you were kind
-enough to send us the link</span>
-<p>You told us people are <b>"all the time"</b> trying to sell you a change of website hosting.
-&#11088;&#11088; <b>So we are not going to be another one.</b> <b>You do not have to leave Hibu,
-switch anything or move anything to work with us.</b> The campaigns run to pages we host, and
-your Hibu site stays exactly where it is.</p>
-<p>&#128308; <b>What we would suggest instead is four questions to ask Hibu yourself.</b> They
-come from the patterns that show up most often in Hibu's own public reviews. <b>We are not saying
-any of them apply to you.</b> You would know, and they would tell you.</p>
+<div class="card"><span class="lab">The two options</span>
+<p>Pick one build. It is paid once and you keep it, whatever you decide afterwards.</p>
+<div class="opt">
+<div class="o">
+<h3>A. Foundation</h3>
+<div class="sub2">Make the website measurable, and fix what is broken</div>
+<div class="px">$2,200 <small>one time</small></div>
+<div class="pay">Nothing recurring in this price</div>
 <ul>
-<li><b>"If I stop paying, do I keep my website?"</b> &#9888; The single most common complaint in
-their public reviews is businesses losing their site, content and domain setup when they leave,
-<b>and being told the site belonged to Hibu</b></li>
-<li><b>"Whose name is my domain registered in?"</b> If it is not yours, your web address is not
-fully yours either</li>
-<li><b>"When does my contract end, and what does cancelling involve?"</b> Several public reviews
-describe being billed for months after cancelling</li>
-<li><b>"Am I paying you for anything beyond the website?"</b> &#11088;&#11088; <b>This is the one
-that matters most.</b> Hibu also sells ads, SEO and listings. <b>If you are paying for any of
-those, they cannot currently be measured, because your site has no conversion tracking.</b> That
-is the same problem you described with Trane's leads, from a different supplier</li>
-</ul></div>
-
-<div class="card bad"><span class="lab">&#128308; One thing on your current site that is not a
-matter of opinion</span>
-<p>The words <b>"Business Tagline Lorem Ipsum Dolor"</b> appear on <b>every page of your live
-website</b>: the homepage, About and Contact.</p>
-<p>&#9888; <b>"Lorem ipsum" is placeholder text that website builders put in a template</b>, meant
-to be replaced before a site goes live. <b>It is in white italic, in the row near the bottom of
-each page</b>, which is why it is easy to miss on your own screen and still read by Google and by
-anyone who looks closely.</p>
-<p>&#11088;&#11088; <b>We are not raising it to criticise Hibu.</b> We are raising it because
-<b>you are paying someone to look after that site, and it has been there long enough to be on every
-page.</b> &#9888; <b>It is a two-minute fix, and it is worth asking why it was not caught.</b></p>
+<li><b>An enquiry form on every page</b>, asking the job type, the zip code and how soon</li>
+<li><b>Conversion tracking</b> on every form and every phone link</li>
+<li><b>The Google tag added, and the Meta pixel you already own wired up</b></li>
+<li><b>Local business markup</b>: your address, hours and service area where Google reads them</li>
+<li><b>"Business Tagline Lorem Ipsum Dolor" removed</b> from every page</li>
+<li><b>Your Google reviews put on your own website</b></li>
+<li><b>Your first campaign built and launched</b>, to a page we host</li>
+</ul>
+<div class="why"><b>Why this at all:</b> nothing on your site records where a call or an enquiry
+came from. <b>Until it does, nobody can tell you which half of your marketing works, including
+us.</b></div>
 </div>
-
-<div class="card good"><span class="lab">&#11088;&#11088; The difference, in one table</span>
-<table><thead><tr><th>The question</th><th>What the public reviews say about Hibu</th>
-<th>With us</th></tr></thead><tbody>
-<tr><td>Who owns the website?</td><td>Often reported as staying with Hibu when you leave</td>
-<td><b>You.</b> Anything we build, you keep</td></tr>
-<tr><td>Who owns the ad account?</td><td>Run inside their platform</td>
-<td><b>You.</b> In your name, on your card</td></tr>
-<tr><td>Can you see where a lead came from?</td>
-<td>A frequent complaint is not being able to tell leads they generated from leads they only
-tracked</td><td><b>Yes, every one</b>, with the junk shown in its own row</td></tr>
-<tr><td>Contract</td><td>Commonly long, and hard to cancel in several reviews</td>
-<td><b>Month to month</b>, cancel whenever</td></tr>
-<tr><td>Do you have to switch?</td><td>Not applicable</td>
-<td><b>No.</b> Hibu can stay exactly as it is</td></tr>
+<div class="o pick">
+<div class="tag">What I would pick</div>
+<h3>B. Full build</h3>
+<div class="sub2">Measurable, and with somewhere to send winter traffic</div>
+<div class="px">$3,000 <small>one time</small></div>
+<div class="pay">Nothing recurring in this price</div>
+<ul>
+<li><b>Everything in Foundation</b></li>
+<li><b>A heating page</b>, for the only demand that exists between October and January</li>
+<li><b>A maintenance plan page</b>, with the July priority promise at the top</li>
+<li><b>A commercial refrigeration page</b>, built now so it is ranking before May</li>
+<li><b>A page for each town you serve</b></li>
+<li><b>Your licence, warranty and Trane and Mitsubishi dealer status</b> stated where a buyer
+looks, and your own line, <i>"we're not like Joe and his pickup truck"</i></li>
+</ul>
+<div class="why"><b>Why this one:</b> the difference is not polish. <b>It is four pages that sell
+four different kinds of work</b>, and the maintenance plan page is the one your winter campaign
+sends people to.</div>
+</div>
+</div>
+<p><b>Then, month to month, from November:</b></p>
+<div class="mstrip">
+<div class="o"><h3>October to January</h3><div class="sub2">Your quiet months</div>
+<div class="px">$950 <small>a month</small></div>
+<div class="pay">Management only. Less to manage, so less to charge</div></div>
+<div class="o"><h3>February to September</h3><div class="sub2">Your season</div>
+<div class="px">$1,500 <small>a month</small></div>
+<div class="pay">Management only. Full attention in the months that carry your year</div></div>
+</div>
+<p>&#9888; <b>Advertising budget is separate</b>, paid by you straight to Google or Meta on your own
+card. <b>You set it and can change it any month.</b> No contract, cancel whenever, and you own the
+ad account, the tracking and everything we build.</p>
+<p>&#9888; <b>The website items need access to your Hibu site.</b> If Hibu will not give it, we tell
+you before you pay and adjust the scope. <b>The campaigns run to pages we host, so they work either
+way.</b></p>
+</div>
+<div class="card bad"><span class="lab">&#128308;&#128308; What has to happen for this
+to pay for itself, on your own numbers</span>
+<p>You told us your <b>average ticket is about $500.</b> So this is measured in service
+calls, at your price.</p>
+<table><thead><tr><th>What it covers</th><th>Fee</th><th>Service calls at $500 to cover it
+</th></tr></thead><tbody>
+<tr><td>The build, month one</td><td>$2,200 or $3,000</td><td><b>5 or 6</b></td></tr>
+<tr><td>A quiet month, October to January</td><td>$950</td><td><b>2</b></td></tr>
+<tr><td>A season month, February to September</td><td>$1,500</td><td><b>3</b></td></tr>
+<tr><td><b>Your first full year</b>, build plus 3 quiet and 8 season months</td>
+<td>$17,850</td><td><b>36</b></td></tr>
 </tbody></table>
-<p style="margin-top:12px">&#9888; <b>The middle column describes patterns in public reviews of
-Hibu on Capterra, ConsumerAffairs, the BBB and Sitejabber, read in October 2026.</b> <b>It is not a
-statement about your own contract</b>, which we have not seen. Hibu's ratings vary widely by site,
-from strongly positive to strongly negative, and plenty of customers are happy with them.</p></div>
-
-
-<div class="card"><span class="lab">The two options, both one time</span>
-<table><thead><tr><th></th><th>A. Foundation</th><th>B. Full build</th></tr></thead><tbody>
-<tr><td><b>One time</b></td><td><b>$2,200</b></td><td><b>$3,000</b></td></tr>
-<tr><td>Enquiry form on every page, not just the contact page</td><td>yes</td><td>yes</td></tr>
-<tr><td>Conversion tracking on the form and the phone</td><td>yes</td><td>yes</td></tr>
-<tr><td>Google Ads tag and the Meta pixel you already have, wired up</td><td>yes</td><td>yes</td></tr>
-<tr><td>Local business markup: address, hours, service area</td><td>yes</td><td>yes</td></tr>
-<tr><td>The placeholder text removed from your homepage</td><td>yes</td><td>yes</td></tr>
-<tr><td>Your Google reviews pulled onto the website</td><td>yes</td><td>yes</td></tr>
-<tr><td><b>A heating page built for winter demand</b></td><td>no</td><td><b>yes</b></td></tr>
-<tr><td><b>A commercial refrigeration page</b>: walk-ins, ice machines, reach-ins</td>
-<td>no</td><td><b>yes</b></td></tr>
-<tr><td><b>A maintenance plan page</b>, the thing that smooths your winters</td>
-<td>no</td><td><b>yes</b></td></tr>
-<tr><td><b>A page for each town you serve</b></td><td>no</td><td><b>yes</b></td></tr>
-<tr><td>Campaign build and launch</td><td>yes</td><td>yes</td></tr>
-</tbody></table>
-<p style="margin-top:12px">&#11088;&#11088; <b>The difference between them is not polish, it is
-four pages that sell four different kinds of work.</b> &#9888; <b>Option A fixes the plumbing on
-what you already have. Option B gives you somewhere to send winter traffic</b>, which matters
-because of the next card.</p></div>
-
-<div class="card bad"><span class="lab">&#128308;&#128308; The timing, and why this
-is a conversation for October</span>
-<p>You told us: <b>ten calls a day in summer, and one or two a day from October to January.</b></p>
-<p>&#11088;&#11088; <b>Your quiet season is not coming. It has started.</b> Your four technicians
-and your husband are paid through October, November, December and January whether the phone rings
-or not. <b>Every week this waits is another week of capacity you have already bought sitting
-idle.</b></p>
-<p>&#9888;&#9888; <b>One thing we got wrong and want to correct.</b> We first thought commercial
-refrigeration could carry you through winter. <b>Checked properly, Texas refrigeration failures
-peak May to August</b>, when the heat pushes compressors past their design capacity, so it is a
-summer business too. <b>We build that page now so it is ranking before May, not for January
-revenue.</b></p>
-<p>&#128308; <b>And no amount of advertising creates demand for air conditioning in a Texas
-winter.</b> The winter work is service calls: heating checks, tune-ups and maintenance plans,
-<b>which is exactly the kind of call your idle technicians can take.</b></p></div>
-
-<div class="card"><span class="lab">&#11088; The monthly, and the good deal you
-asked for</span>
-<table><thead><tr><th>When</th><th>Management</th><th>Why</th></tr></thead><tbody>
-<tr><td><b>October to January</b>, your quiet months</td><td><b>$950 a month</b></td>
-<td>The months you told us drop to one or two calls a day. <b>Less to manage, so less to
-charge.</b> The work is heating, tune-ups and maintenance plans</td></tr>
-<tr><td><b>February to September</b>, your season</td><td><b>$1,500 a month</b></td>
-<td>Full management and full attention, in the months that carry your year</td></tr>
-</tbody></table>
-<p style="margin-top:12px">&#9888; <b>Your first October is the build month</b>, the one-time
-option you choose. The monthly starts after it.</p>
-<p>&#9888; <b>Advertising budget is separate and is paid by you, direct to Google or Meta, on your
-own card.</b> <b>We never touch your money</b>, and we are never the ones deciding how much of it
-is at risk. <b>You set the figure, you can change it any month, and we will recommend a starting
-point when you ask for one.</b> &#11088; <b>It is deliberately not printed here, because the right
-number depends on which option you take and on what you want back.</b></p>
-<p>&#11088;&#11088; <b>That seasonal split is the deal.</b> &#9888; <b>It is not a discount
-invented to close you.</b> It is lower because there genuinely is less to do in your quiet months,
-and <b>anyone quoting you one flat number for twelve months is charging you full price to
-advertise into an empty market.</b></p>
-<p>&#128308; <b>Month to month. No contract, no tie-in, and you own the ad account, the tracking
-and everything we build.</b></p></div>
-
+<p style="margin-top:12px">&#11088;&#11088; <b>About 36 service calls across a whole year covers
+everything.</b> &#11088; <b>Your own figures put the idle capacity in a single winter, November
+to January, at about 170.</b></p>
+<p>&#9888;&#9888; <b>Two honest caveats.</b> First, <b>that is revenue, not profit</b>, and we do
+not know your costs or margins. <b>But in your quiet months your technicians are already paid</b>,
+so most of a winter call's revenue is margin rather than new cost, which is the whole argument for
+starting in October. Second, <b>this says what the hurdle is. It does not say we will clear it,
+and we are not promising that we will.</b></p>
+<p>&#9888; <b>Installs are not in these figures.</b> You told us they run at two a week all year,
+so they are not the winter gap, and we do not have your install price. <b>One install would cover
+several months on its own</b>, but we would rather not use a number we have not got.</p>
+<p>&#9888; <b>Advertising budget is on top</b> and is not in these figures, because it is paid to
+the platforms rather than to us.</p></div>
 <div class="card bad" style="border-left:5px solid #157a52">
 <span class="lab">&#11088;&#11088; You do not have to decide the whole thing today</span>
 <p><b>Buy the build. Decide about the monthly in week four, when you have seen the first
@@ -297,7 +266,6 @@ day</b>.</p>
 data and the ad account, which is in your name, not ours. <b>Worst case you paid once for a
 website that finally works and you found out where your leads come from after sixteen
 years.</b></p></div>
-
 <div class="card"><span class="lab">&#11088; And if you do carry on, the cheap
 months come first</span>
 <ul>
@@ -306,7 +274,6 @@ months come first</span>
 <li><b>If it is not working you will know by the second report</b>, not the second year</li>
 <li><b>Month to month throughout.</b> No contract, no notice period, no cancellation fee</li>
 </ul></div>
-
 <div class="card bad"><span class="lab">&#128308;&#128308; The one that answers your actual
 question</span>
 <p>You asked how anyone can promise the leads are not bogus. <b>Here is what we will do instead
@@ -316,7 +283,6 @@ to sell anything. <b>To find out together whether they are any good.</b></p>
 <p>&#9888; <b>If they are rubbish, you will hear it on the call rather than reading it in a
 report a month later</b>, and we change the targeting or the questions in front of the form while
 it is still cheap to change them.</p></div>
-
 <div class="card warn"><span class="lab">&#11088; The comparison you already understand</span>
 <p>You are <b>rewrapping your trucks right now</b>, because you believe in something people can
 see, and you are right to.</p>
@@ -390,32 +356,75 @@ you are careful</td></tr>
 <tr><td><b>Doing all of it in your quiet season</b></td>
 <td>&#11088;&#11088; <b>Nothing is disrupted, because there is nothing to disrupt.</b> Every one
 of these is harder, slower and dearer to do in July</td></tr>
-</tbody></table></div><div class="card bad"><span class="lab">&#128308;&#128308; What has to happen for this
-to pay for itself, on your own numbers</span>
-<p>You told us your <b>average ticket is about $500.</b> So this is measured in service
-calls, at your price.</p>
-<table><thead><tr><th>What it covers</th><th>Fee</th><th>Service calls at $500 to cover it
-</th></tr></thead><tbody>
-<tr><td>The build, month one</td><td>$2,200 or $3,000</td><td><b>5 or 6</b></td></tr>
-<tr><td>A quiet month, October to January</td><td>$950</td><td><b>2</b></td></tr>
-<tr><td>A season month, February to September</td><td>$1,500</td><td><b>3</b></td></tr>
-<tr><td><b>Your first full year</b>, build plus 3 quiet and 8 season months</td>
-<td>$17,850</td><td><b>36</b></td></tr>
+</tbody></table></div>
+<div class="card bad"><span class="lab">&#128308;&#128308; The timing, and why this
+is a conversation for October</span>
+<p>You told us: <b>ten calls a day in summer, and one or two a day from October to January.</b></p>
+<p>&#11088;&#11088; <b>Your quiet season is not coming. It has started.</b> Your four technicians
+and your husband are paid through October, November, December and January whether the phone rings
+or not. <b>Every week this waits is another week of capacity you have already bought sitting
+idle.</b></p>
+<p>&#9888;&#9888; <b>One thing we got wrong and want to correct.</b> We first thought commercial
+refrigeration could carry you through winter. <b>Checked properly, Texas refrigeration failures
+peak May to August</b>, when the heat pushes compressors past their design capacity, so it is a
+summer business too. <b>We build that page now so it is ranking before May, not for January
+revenue.</b></p>
+<p>&#128308; <b>And no amount of advertising creates demand for air conditioning in a Texas
+winter.</b> The winter work is service calls: heating checks, tune-ups and maintenance plans,
+<b>which is exactly the kind of call your idle technicians can take.</b></p></div>
+<div class="card warn"><span class="lab">&#9888;&#9888; About Hibu, since you were kind
+enough to send us the link</span>
+<p>You told us people are <b>"all the time"</b> trying to sell you a change of website hosting.
+&#11088;&#11088; <b>So we are not going to be another one.</b> <b>You do not have to leave Hibu,
+switch anything or move anything to work with us.</b> The campaigns run to pages we host, and
+your Hibu site stays exactly where it is.</p>
+<p>&#128308; <b>What we would suggest instead is four questions to ask Hibu yourself.</b> They
+come from the patterns that show up most often in Hibu's own public reviews. <b>We are not saying
+any of them apply to you.</b> You would know, and they would tell you.</p>
+<ul>
+<li><b>"If I stop paying, do I keep my website?"</b> &#9888; The single most common complaint in
+their public reviews is businesses losing their site, content and domain setup when they leave,
+<b>and being told the site belonged to Hibu</b></li>
+<li><b>"Whose name is my domain registered in?"</b> If it is not yours, your web address is not
+fully yours either</li>
+<li><b>"When does my contract end, and what does cancelling involve?"</b> Several public reviews
+describe being billed for months after cancelling</li>
+<li><b>"Am I paying you for anything beyond the website?"</b> &#11088;&#11088; <b>This is the one
+that matters most.</b> Hibu also sells ads, SEO and listings. <b>If you are paying for any of
+those, they cannot currently be measured, because your site has no conversion tracking.</b> That
+is the same problem you described with Trane's leads, from a different supplier</li>
+</ul></div>
+<div class="card bad"><span class="lab">&#128308; One thing on your current site that is not a
+matter of opinion</span>
+<p>The words <b>"Business Tagline Lorem Ipsum Dolor"</b> appear on <b>every page of your live
+website</b>: the homepage, About and Contact.</p>
+<p>&#9888; <b>"Lorem ipsum" is placeholder text that website builders put in a template</b>, meant
+to be replaced before a site goes live. <b>It is in white italic, in the row near the bottom of
+each page</b>, which is why it is easy to miss on your own screen and still read by Google and by
+anyone who looks closely.</p>
+<p>&#11088;&#11088; <b>We are not raising it to criticise Hibu.</b> We are raising it because
+<b>you are paying someone to look after that site, and it has been there long enough to be on every
+page.</b> &#9888; <b>It is a two-minute fix, and it is worth asking why it was not caught.</b></p>
+</div>
+<div class="card good"><span class="lab">&#11088;&#11088; The difference, in one table</span>
+<table><thead><tr><th>The question</th><th>What the public reviews say about Hibu</th>
+<th>With us</th></tr></thead><tbody>
+<tr><td>Who owns the website?</td><td>Often reported as staying with Hibu when you leave</td>
+<td><b>You.</b> Anything we build, you keep</td></tr>
+<tr><td>Who owns the ad account?</td><td>Run inside their platform</td>
+<td><b>You.</b> In your name, on your card</td></tr>
+<tr><td>Can you see where a lead came from?</td>
+<td>A frequent complaint is not being able to tell leads they generated from leads they only
+tracked</td><td><b>Yes, every one</b>, with the junk shown in its own row</td></tr>
+<tr><td>Contract</td><td>Commonly long, and hard to cancel in several reviews</td>
+<td><b>Month to month</b>, cancel whenever</td></tr>
+<tr><td>Do you have to switch?</td><td>Not applicable</td>
+<td><b>No.</b> Hibu can stay exactly as it is</td></tr>
 </tbody></table>
-<p style="margin-top:12px">&#11088;&#11088; <b>About 36 service calls across a whole year covers
-everything.</b> &#11088; <b>Your own figures put the idle capacity in a single winter, November
-to January, at about 170.</b></p>
-<p>&#9888;&#9888; <b>Two honest caveats.</b> First, <b>that is revenue, not profit</b>, and we do
-not know your costs or margins. <b>But in your quiet months your technicians are already paid</b>,
-so most of a winter call's revenue is margin rather than new cost, which is the whole argument for
-starting in October. Second, <b>this says what the hurdle is. It does not say we will clear it,
-and we are not promising that we will.</b></p>
-<p>&#9888; <b>Installs are not in these figures.</b> You told us they run at two a week all year,
-so they are not the winter gap, and we do not have your install price. <b>One install would cover
-several months on its own</b>, but we would rather not use a number we have not got.</p>
-<p>&#9888; <b>Advertising budget is on top</b> and is not in these figures, because it is paid to
-the platforms rather than to us.</p></div>
-
+<p style="margin-top:12px">&#9888; <b>The middle column describes patterns in public reviews of
+Hibu on Capterra, ConsumerAffairs, the BBB and Sitejabber, read in October 2026.</b> <b>It is not a
+statement about your own contract</b>, which we have not seen. Hibu's ratings vary widely by site,
+from strongly positive to strongly negative, and plenty of customers are happy with them.</p></div>
 <div class="card bad"><span class="lab">&#128308;&#128308; What we will not do, which
 may matter more to you than what we will</span>
 <ul>
@@ -432,7 +441,8 @@ where leads come from. <b>Being able to see that is the whole point</b></li>
 sack us, none of it leaves with us</b></li>
 <li><b>We will not claim your word of mouth jobs as ours.</b> They get their own line in the
 report, unattributed</li>
-</ul></div><div class="card warn"><span class="lab">&#9888; If neither option is right, say so</span>
+</ul></div>
+<div class="card warn"><span class="lab">&#9888; If neither option is right, say so</span>
 <ul>
 <li><b>If Hibu will not give access</b>, option B is not deliverable as written and we will say
 so rather than take the money</li>
