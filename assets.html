@@ -101,8 +101,36 @@ footer{color:var(--mut);font-size:12.5px;text-align:center;padding:22px 0 40px;l
 .agnav a.ext{color:var(--accent)}
 .agnav a.ext:hover{color:#fff}
 @media(max-width:560px){.agnav .inner{padding:0 14px}.agnav a{padding:10px 9px;font-size:13px}}
+
+/* AG1 card system, matched to this pack's dark theme. Added 7 Oct: these classes were used
+   on every new page and defined on none, so the cards rendered as plain text. */
+.card{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--accent);
+border-radius:12px;padding:18px 20px;margin:0 0 14px}
+.card.bad{border-left-color:var(--bad)}
+.card.warn{border-left-color:var(--gradC)}
+.card.note{border-left-color:var(--accent);background:#111a27}
+.card.good{border-left-color:var(--good)}
+.card .lab{display:block;font-size:12.5px;font-weight:800;text-transform:uppercase;
+letter-spacing:.08em;color:var(--ink);margin-bottom:10px}
+.card p{color:var(--mut);font-size:15px;margin:0 0 10px}
+.card p:last-child{margin-bottom:0}
+.card ul{margin:0 0 10px 20px}
+.card ul li{background:none;border:0;border-radius:0;padding:0;margin-bottom:7px;
+color:var(--mut);font-size:14.5px}
+.card i{color:var(--ink)}
+.card a,section .wrap p a,section .wrap li a,section .wrap td a{display:inline;padding:0;
+border:0;color:var(--accent);text-decoration:underline;font-weight:600}
+table{width:100%;border-collapse:collapse;margin:6px 0 4px;font-size:14px}
+th{text-align:left;padding:10px 12px;color:var(--ink);font-weight:700;
+border-bottom:2px solid var(--line);background:#0f141b}
+td{padding:10px 12px;border-bottom:1px solid var(--line);color:var(--mut);vertical-align:top}
+tr:last-child td{border-bottom:0}
+.row table td,.row table th{padding:10px 12px}
+.agnav .inner{flex-wrap:wrap}
+@media(max-width:760px){table{font-size:13px}th,td{padding:8px 9px}
+.card{padding:15px 15px}}
 </style></head><body>
-<nav class="agnav"><div class="inner"><a href="revised-scope.html">Revised scope</a><a href="assets.html" class="on">All Assets</a><a href="./">Audit</a><a href="competitors.html">Competitors</a><a href="https://andrei170.github.io/lansing-mechanical-demo/">Concept Site</a></div></nav>
+<nav class="agnav"><div class="inner"><a href="./">Audit</a><a href="assets.html" class="on">All Assets</a><a href="revised-scope.html">Revised scope</a><a href="competitors.html">Competitors</a><a href="pricing.html">The two options</a><a href="campaigns.html">Campaign plan</a><a href="plan.html">First 30 days</a><a href="report.html">Monthly report</a><a href="https://andrei170.github.io/lansing-mechanical-demo/" target="_blank" rel="noopener">Concept Site &nearr;</a></div></nav>
 
 <header>
  <div class="wrap">
