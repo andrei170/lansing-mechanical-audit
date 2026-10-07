@@ -101,8 +101,36 @@ footer{color:var(--mut);font-size:12.5px;text-align:center;padding:22px 0 40px;l
 .agnav a.ext{color:var(--accent)}
 .agnav a.ext:hover{color:#fff}
 @media(max-width:560px){.agnav .inner{padding:0 14px}.agnav a{padding:10px 9px;font-size:13px}}
+
+/* AG1 card system, matched to this pack's dark theme. Added 7 Oct: these classes were used
+   on every new page and defined on none, so the cards rendered as plain text. */
+.card{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--accent);
+border-radius:12px;padding:18px 20px;margin:0 0 14px}
+.card.bad{border-left-color:var(--bad)}
+.card.warn{border-left-color:var(--gradC)}
+.card.note{border-left-color:var(--accent);background:#111a27}
+.card.good{border-left-color:var(--good)}
+.card .lab{display:block;font-size:12.5px;font-weight:800;text-transform:uppercase;
+letter-spacing:.08em;color:var(--ink);margin-bottom:10px}
+.card p{color:var(--mut);font-size:15px;margin:0 0 10px}
+.card p:last-child{margin-bottom:0}
+.card ul{margin:0 0 10px 20px}
+.card ul li{background:none;border:0;border-radius:0;padding:0;margin-bottom:7px;
+color:var(--mut);font-size:14.5px}
+.card i{color:var(--ink)}
+.card a,section .wrap p a,section .wrap li a,section .wrap td a{display:inline;padding:0;
+border:0;color:var(--accent);text-decoration:underline;font-weight:600}
+table{width:100%;border-collapse:collapse;margin:6px 0 4px;font-size:14px}
+th{text-align:left;padding:10px 12px;color:var(--ink);font-weight:700;
+border-bottom:2px solid var(--line);background:#0f141b}
+td{padding:10px 12px;border-bottom:1px solid var(--line);color:var(--mut);vertical-align:top}
+tr:last-child td{border-bottom:0}
+.row table td,.row table th{padding:10px 12px}
+.agnav .inner{flex-wrap:wrap}
+@media(max-width:760px){table{font-size:13px}th,td{padding:8px 9px}
+.card{padding:15px 15px}}
 </style></head><body>
-<nav class="agnav"><div class="inner"><a href="revised-scope.html">Revised scope</a><a href="assets.html" class="on">All Assets</a><a href="./">Audit</a><a href="competitors.html">Competitors</a><a href="https://andrei170.github.io/lansing-mechanical-demo/">Concept Site</a></div></nav>
+<nav class="agnav"><div class="inner"><a href="./">Audit</a><a href="assets.html">All Assets</a><a href="revised-scope.html">Revised scope</a><a href="competitors.html">Competitors</a><a href="pricing.html">The two options</a><a href="campaigns.html" class="on">Campaign plan</a><a href="plan.html">First 30 days</a><a href="report.html">Monthly report</a><a href="https://andrei170.github.io/lansing-mechanical-demo/" target="_blank" rel="noopener">Concept Site &nearr;</a></div></nav>
 
 <header>
  <div class="wrap">
@@ -155,7 +183,7 @@ tracking is installed <b>nobody can tell you what yours are, including us.</b></
 <p>&#11088; <b>Meta costs roughly a quarter of Google per click and less than half per lead</b>,
 which matters most in the months when you can least afford waste. <b>And the winter product,
 maintenance plans, is exactly what Meta is cheapest at: $40 to $80 a sign-up.</b></p>
-<p>&#11088; <b>Then in March the money moves to Google</b>, because by then the demand exists and
+<p>&#11088; <b>Then in February the money moves to Google</b>, because by then the demand exists and
 the job is simply to be the firm that answers.</p>
 <p>&#9888; <b>Local Services Ads are the cheapest Google route at about $51 a lead, but they are
 pay-per-lead</b>, and <b>you have been burned by pay-per-lead twice</b>. &#11088; The difference
@@ -216,10 +244,10 @@ should be wired to these campaigns from the first day.</p></div>
 
 <div class="card"><span class="lab">Where the budget sits, as a proportion</span>
 <table><thead><tr><th>Months</th><th>Google</th><th>Meta</th><th>Why</th></tr></thead><tbody>
-<tr><td><b>November to February</b></td><td><b>A small slice</b>, your own name only</td>
+<tr><td><b>October to January</b></td><td><b>A small slice</b>, your own name only</td>
 <td><b>The large majority</b></td>
 <td>There is no demand to catch, so it has to be created. Plans and tune-ups</td></tr>
-<tr><td><b>March to October</b></td><td><b>The large majority</b></td>
+<tr><td><b>February to September</b></td><td><b>The large majority</b></td>
 <td><b>A small slice</b>, retargeting and your plan customers</td>
 <td>The demand exists and is urgent. The job is to be the firm that answers</td></tr>
 </tbody></table>
@@ -227,47 +255,42 @@ should be wired to these campaigns from the first day.</p></div>
 Meta on your own card.</b> <b>It never passes through us</b>, which also means we are never the
 ones deciding how much of your money is at risk. <b>We will give you a figure to start at when
 you ask for one, and you can change it any month.</b></p></div>
-<div class="card"><span class="lab">&#11088; The winter offers, November to February</span>
-<table><thead><tr><th>Offer</th><th>Why it works in your slow months</th>
-<th>Platform</th></tr></thead><tbody>
+<div class="card"><span class="lab">&#11088; The quiet-season offers, October to
+January</span>
+<p>&#11088;&#11088; <b>Every one of these is a service call</b>, because <b>your installs already
+hold steady at two a week all year</b>. <b>The gap is the one or two calls a day</b>, and service
+calls are exactly what idle, already-paid technicians can take.</p>
+<table><thead><tr><th>Offer</th><th>Why it works in your quiet months</th><th>Platform</th></tr>
+</thead><tbody>
 
-<tr><td><b>1. The maintenance plan.</b> An annual agreement: two visits a year, priority
-booking, a discount on repairs</td>
+<tr><td><b>1. The maintenance plan.</b> An annual agreement: two visits a year, priority booking,
+a discount on repairs</td>
 <td>&#11088;&#11088; <b>The strongest card you hold, and only a busy firm can play it.</b> In a
 July heatwave everyone waits three days for a technician. <b>Selling "you go to the front of the
-queue in July" in January is worth real money to a homeowner</b>, and it costs you nothing in a
-month when the vans are quiet. <b>It also turns winter into recurring revenue</b></td>
+queue in July" in November is worth real money to a homeowner</b>, it costs you nothing while the
+vans are quiet, and <b>it turns your slow months into recurring revenue</b></td>
 <td>Meta. <b>$40 to $80 a sign-up</b></td></tr>
 
-<tr><td><b>2. The heating tune-up or safety check.</b> A low-ticket winter visit</td>
-<td>&#128308;&#128308; <b>The money is not the tune-up, it is what the tune-up finds.</b> A
-technician in the house in January is the cheapest way there is to discover a system that will
-not survive the summer. <b>That becomes a spring replacement booked before the rush</b></td>
+<tr><td><b>2. The heating check and tune-up.</b> A low-ticket winter visit</td>
+<td>&#128308;&#128308; <b>The money is not only the visit, it is what the visit finds.</b> A
+technician in the house in December is the cheapest way there is to find a system that will not
+survive the summer, <b>and that customer already trusts you before July</b></td>
 <td>Meta. <b>$25 to $55 a form fill</b>, the cheapest lead in the table</td></tr>
 
-<tr><td><b>3. Beat-the-rush replacement, booked winter, fitted spring</b></td>
-<td>&#11088; <b>February to April is a recognised replacement window in the States</b>, because
-tax refunds land. &#11088; <b>And you can offer something you genuinely cannot in July: a
-scheduled install date, no emergency premium, and your pick of equipment</b> rather than whatever
-is on the truck</td>
-<td>Meta into winter, <b>switching to Google from March</b></td></tr>
-
-<tr><td><b>4. Commercial maintenance contracts</b> for restaurants, convenience stores and
-retail with refrigeration</td>
-<td>&#9888; <b>Texas refrigeration failures peak May to August</b>, when heat pushes compressors
-past design capacity. <b>A restaurant that loses a walk-in in July loses its stock.</b> Selling
-that protection in January is easy; selling it in July is too late. <b>Recurring, commercial, and
-it does not care about the weather today</b></td>
+<tr><td><b>3. Commercial maintenance contracts</b> for restaurants, convenience stores and retail
+with refrigeration</td>
+<td>&#9888; <b>Texas refrigeration failures peak May to August.</b> A restaurant that loses a
+walk-in in July loses its stock. <b>Selling that protection in January is easy; selling it in July
+is too late.</b> Recurring, commercial, and indifferent to today's weather</td>
 <td>Google, low budget. <b>Business owners search for this</b></td></tr>
 
-<tr><td><b>5. Mini splits for garages, additions and home offices</b></td>
-<td>&#11088; <b>You are a Trane and Mitsubishi mini split dealer, and this is a planned purchase
-rather than an emergency.</b> People plan home projects in winter. <b>It is the one genuinely
-seasonal-proof install you sell</b></td>
-<td>Meta. Visual, and it sells on the photograph</td></tr>
+<tr><td><b>4. Mini splits for garages, additions and home offices</b></td>
+<td>&#11088; <b>You are a Trane and Mitsubishi dealer, and this is a planned purchase rather than
+an emergency.</b> People plan home projects in winter</td>
+<td>Meta. It sells on the photograph</td></tr>
 </tbody></table></div>
 
-<div class="card"><span class="lab">The in-season campaigns, March to October</span>
+<div class="card"><span class="lab">The in-season campaigns, February to September</span>
 <ul>
 <li><b>Google search, emergency intent.</b> <i>ac repair graham tx</i>, <i>air conditioner not
 working near me</i>, <i>emergency ac repair</i>. &#9888; <b>Dearest leads of the year at around
@@ -286,14 +309,12 @@ warmest replacement prospects you have in July</li>
 <div class="card warn"><span class="lab">&#9888; The order it has to happen in</span>
 <ul>
 <li><b>Now, October.</b> Tracking installed, forms on every page, heating and maintenance pages
-built. <b>Six to eight weeks before a season is the accepted window, and for winter heating that
-window is now</b></li>
-<li><b>November to February.</b> Meta on maintenance plans and tune-ups. Small budget.
-<b>Measuring, not harvesting</b></li>
-<li><b>March.</b> Budget moves to Google. <b>Six to eight weeks before your season, same
-rule</b></li>
+built. <b>Your quiet season has already started</b>, so this cannot wait for spring</li>
+<li><b>November to January.</b> Meta on maintenance plans and tune-ups. <b>Filling idle,
+already-paid technician time</b>, and measuring every call</li>
+<li><b>February.</b> Budget begins moving to Google as your season starts</li>
 <li><b>May to August.</b> Full weight on Google, emergency and replacement. The commercial
-refrigeration page is ranking by now, which is the point of building it in winter</li>
+refrigeration page is ranking by now, which is the reason to build it in winter</li>
 <li><b>September.</b> Review everything against real numbers, which by then you will have for the
 first time</li>
 </ul></div>
