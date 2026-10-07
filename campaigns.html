@@ -1,0 +1,269 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
+<title>Campaign Plan &middot; Lansing Mechanical</title><style>
+:root{--bg:#0d1117;--panel:#161b22;--ink:#e6edf3;--mut:#9aa7b4;--line:#2a3340;--accent:#2f81f7;
+ --good:#3fb950;--bad:#f85149;--gradF:#f85149;--gradD:#e8702a;--gradC:#d29922;--gradB:#3fb950;--gradA:#2ea043;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+.eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:12px;color:var(--mut);font-weight:600}
+header{padding:46px 0 28px;border-bottom:1px solid var(--line);background:radial-gradient(1200px 400px at 70% -10%,rgba(47,129,247,.18),transparent)}
+h1{font-size:30px;font-weight:800;margin:10px 0 6px;letter-spacing:-.01em}
+.sub{color:var(--mut);font-size:15px}
+.hero{display:grid;grid-template-columns:300px 1fr;gap:26px;align-items:center;margin:34px 0 8px}
+@media(max-width:760px){.hero{grid-template-columns:1fr}}
+.gradecard{border:1px solid var(--line);border-radius:18px;padding:26px;text-align:center;position:relative;overflow:hidden}
+.gc-F{background:linear-gradient(160deg,#2a1410,#1c2330)}.gc-D{background:linear-gradient(160deg,#2a1c10,#1c2330)}
+.gc-C{background:linear-gradient(160deg,#2a2410,#1c2330)}.gc-B{background:linear-gradient(160deg,#102a1a,#1c2330)}
+.bigletter{font-size:96px;font-weight:900;line-height:1;position:relative}
+.bl-F{color:var(--gradF);text-shadow:0 0 40px rgba(248,81,73,.45)}
+.bl-D{color:var(--gradD);text-shadow:0 0 40px rgba(232,112,42,.45)}
+.bl-C{color:var(--gradC);text-shadow:0 0 40px rgba(210,153,34,.45)}
+.score100{font-size:18px;color:var(--mut);margin-top:6px;position:relative}
+.heroread h2{font-size:21px;font-weight:800;margin-bottom:10px}
+.heroread p{color:var(--mut);font-size:15.5px}
+.heroread .tag{display:inline-block;margin-top:14px;padding:6px 12px;border:1px solid var(--line);border-radius:999px;font-size:13px;color:var(--ink);background:var(--panel)}
+section{padding:34px 0;border-bottom:1px solid var(--line)}
+.h{font-size:13px;color:var(--mut);text-transform:uppercase;letter-spacing:.14em;font-weight:700;margin-bottom:18px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:760px){.grid{grid-template-columns:1fr}}
+.row{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center}
+.rname{font-weight:600;font-size:15px}
+.bar{height:7px;background:#0b0f15;border-radius:99px;margin-top:9px;overflow:hidden}
+.fill{height:100%;border-radius:99px}
+.badge{font-weight:800;font-size:15px;min-width:46px;height:46px;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#0d1117}
+.gF{background:var(--gradF)}.gD{background:var(--gradD)}.gC{background:var(--gradC)}.gB{background:var(--gradB);color:#06210f}.gA{background:var(--gradA);color:#06210f}
+.sc{font-size:12px;color:var(--mut);margin-top:3px}
+.flag{background:linear-gradient(160deg,#2a1410,#161b22);border:1px solid #6f2a1f;border-radius:14px;padding:20px 22px;margin-bottom:14px}
+.flag .lab{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--bad);font-weight:700;margin-bottom:8px}
+.win{background:linear-gradient(160deg,#0f2417,#161b22);border:1px solid #1f6f3a;border-radius:14px;padding:20px 22px;margin-bottom:14px}
+.win .lab{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--good);font-weight:700;margin-bottom:8px}
+.warn{background:linear-gradient(160deg,#2a2410,#161b22);border:1px solid #6f5a1f;border-radius:14px;padding:20px 22px;margin-bottom:14px}
+.warn .lab{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--gradC);font-weight:700;margin-bottom:8px}
+.flag p,.win p,.warn p{color:var(--mut);font-size:14.5px;margin-bottom:9px}
+.flag p:last-child,.win p:last-child,.warn p:last-child{margin-bottom:0}
+.flag b,.win b,.warn b{color:var(--ink)}
+.flag ul,.win ul,.warn ul{margin:0 0 9px 20px;color:var(--mut);font-size:14.5px}
+.flag li,.win li,.warn li{margin-bottom:6px}
+.code{background:#0b0f15;border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin:12px 0;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:12.5px;line-height:1.85;color:var(--mut);overflow-x:auto}
+.code .ph{color:#ff9d94;font-weight:700}.code .ok{color:#84e0a8;font-weight:700}.code .c{color:#5b6672}
+.cmp{width:100%;border-collapse:collapse;font-size:14px;background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.cmp th{text-align:left;padding:11px 14px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut);border-bottom:1px solid var(--line);font-weight:700}
+.cmp td{padding:11px 14px;border-bottom:1px solid var(--line);color:var(--mut);vertical-align:top}
+.cmp tr:last-child td{border-bottom:none}.cmp td b{color:var(--ink)}.cmp tr.you td{background:#241a12}
+.cmp .yes{color:var(--good);font-weight:700}.cmp .no{color:var(--bad);font-weight:700}
+.opp{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media(max-width:760px){.opp{grid-template-columns:1fr}}
+.ocard{background:linear-gradient(160deg,#0f2417,#161b22);border:1px solid #1f6f3a;border-radius:14px;padding:20px;text-align:center}
+.ocard .lab{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--mut)}
+.ocard .big{font-size:30px;font-weight:900;color:var(--good);margin:8px 0 2px}
+.ocard .small{font-size:13px;color:var(--mut)}
+.oppnote{color:var(--mut);font-size:14px;margin-top:14px}.oppnote b{color:var(--ink)}
+.arrow{display:flex;align-items:center;justify-content:center;gap:18px;margin:6px 0 2px;flex-wrap:wrap}
+.pill{font-size:60px;font-weight:900;line-height:1}
+.pill.from-F{color:var(--gradF)}.pill.from-D{color:var(--gradD)}.pill.from-C{color:var(--gradC)}
+.pill.to{color:var(--gradA)}
+.pilllab{font-size:12px;color:var(--mut);text-align:center;text-transform:uppercase;letter-spacing:.1em}
+.ar{font-size:34px;color:var(--mut)}
+ul.road{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:760px){ul.road{grid-template-columns:1fr}}
+ul.road li{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:8px;padding:11px 14px;font-size:14.5px}
+.road2 li{border-left-color:var(--good)}
+.cta{text-align:center;padding:40px 0 56px}
+.cta h2{font-size:22px;font-weight:800;margin-bottom:8px}
+.cta p{color:var(--mut);font-size:15px}
+footer{color:var(--mut);font-size:12.5px;text-align:center;padding:22px 0 40px;line-height:1.7}
+.gscale{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:26px 26px 20px;margin-top:16px}
+.gscale .gtitle{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--mut);font-weight:700;margin-bottom:26px;text-align:center}
+.gtrack{position:relative;height:14px;border-radius:8px;background:linear-gradient(90deg,#f85149 0%,#f85149 18%,#e3833c 34%,#d4a72c 52%,#7ec46a 74%,#3fb950 100%);margin:0 4px}
+.gmark{position:absolute;top:-46px;transform:translateX(-50%);text-align:center;white-space:nowrap}
+.gmark .gm-lab{font-size:10.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--mut);font-weight:700}
+.gmark .gm-val{font-size:19px;font-weight:900;line-height:1.15}
+.gmark:after{content:"";position:absolute;left:50%;top:100%;width:2px;height:22px;transform:translateX(-50%);background:currentColor;opacity:.75}
+.gmark.now{color:var(--bad)}.gmark.now .gm-val{color:var(--bad)}
+.gmark.proj{color:var(--good)}.gmark.proj .gm-val{color:var(--good)}
+.gmark.proj{top:auto;bottom:-52px}
+.gmark.proj:after{top:auto;bottom:100%}
+.gdot{position:absolute;top:50%;width:16px;height:16px;border-radius:50%;transform:translate(-50%,-50%);border:3px solid #0d1117}
+.gdot.now{background:var(--bad)}.gdot.proj{background:var(--good)}
+.gticks{display:flex;justify-content:space-between;margin:66px 4px 0;font-size:11px;letter-spacing:.08em;color:var(--mut);font-weight:700}
+@media(max-width:620px){.gmark .gm-lab{font-size:9px}.gmark .gm-val{font-size:16px}}
+
+/* ---------- injected asset nav ---------- */
+/* display/padding/margin are declared explicitly so a page carrying its own bare
+ nav{} element rule (concept mockups do) cannot restyle the AG1 bar. */
+.agnav{display:block;padding:0;margin:0;position:sticky;top:0;z-index:80;background:rgba(13,17,23,.92);backdrop-filter:saturate(1.5) blur(10px);border-bottom:1px solid var(--line)}
+.agnav .inner{max-width:1080px;margin:0 auto;padding:0 22px;display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.agnav a{display:inline-block;padding:12px 14px;font-size:14px;font-weight:600;color:var(--mut);text-decoration:none;border-bottom:2px solid transparent;transition:color .15s,border-color .15s}
+.agnav a:hover{color:var(--ink);border-bottom-color:var(--accent)}
+.agnav a.on{color:var(--ink);border-bottom-color:var(--accent)}
+.agnav a.ext{color:var(--accent)}
+.agnav a.ext:hover{color:#fff}
+@media(max-width:560px){.agnav .inner{padding:0 14px}.agnav a{padding:10px 9px;font-size:13px}}
+</style></head><body>
+<nav class="agnav"><div class="inner"><a href="revised-scope.html">Revised scope</a><a href="assets.html" class="on">All Assets</a><a href="./">Audit</a><a href="competitors.html">Competitors</a><a href="https://andrei170.github.io/lansing-mechanical-demo/">Concept Site</a></div></nav>
+
+<header>
+ <div class="wrap">
+ <div class="eyebrow">Campaign plan &middot; 7 October 2026</div>
+ <h1>Meta In Winter To Create Demand. Google In Summer To Catch It.</h1>
+ <div class="sub">Lansing Mechanical LLC &middot; prepared for Kristina &middot; AG1 Consulting</div>
+
+ <div class="hero">
+ <div class="heroread">
+ <h2>You told Paige a lead generation company did nothing for you, so we have not written you a lead generation pitch.</h2>
+ <p><b>All three documents are about the site you already own</b>  -  what it does well, the one thing on
+ it you will want to change today, and where it cannot do the job.</p>
+ <div class="tag">Three documents &bull; Start with the audit &bull; Concept site is a proposal, not a live site</div>
+ </div>
+ </div>
+ </div>
+</header><section><div class="wrap"><div class="h">Which platform, when, and what to put on it</div>
+
+<div class="card bad"><span class="lab">&#128308;&#128308; You answered the platform question
+yourself on our call</span>
+<p>Your words about a summer customer: <i>"if it's 110, and you go home from work, and you walk
+in your house, and your house is 95 degrees, you're not getting on the internet and going through
+my web page... you're like, can you get here right away? I need you who can be here the fastest.
+And so it's more of like, just searching air conditioner, Graham Texas."</i></p>
+<p>&#11088;&#11088; <b>That is a precise description of Google search.</b> A person in distress,
+typing the job and the town, choosing whoever answers first. <b>You were right, and it settles
+what runs in summer.</b></p>
+<p>&#128308;&#128308; <b>But it also explains why Google is the wrong tool in January.</b>
+<b>Nobody searches for air conditioning in a Texas winter</b>, so there is no demand to capture.
+<b>Winter demand has to be created, and that is a different platform.</b></p></div>
+
+<div class="card"><span class="lab">What the two platforms cost in this trade, 2026 figures</span>
+<table><thead><tr><th></th><th>Google Ads</th><th>Meta</th></tr></thead><tbody>
+<tr><td><b>Cost per click</b></td><td><b>About $9.12</b> on HVAC keywords</td>
+<td><b>About $1.50 to $2.50</b></td></tr>
+<tr><td><b>Blended cost per lead</b></td><td><b>About $104</b></td><td><b>About $45</b></td></tr>
+<tr><td><b>Cheapest route</b></td><td>Local Services Ads at <b>about $51</b></td>
+<td>Tune-up form fills at <b>$25 to $55</b></td></tr>
+<tr><td><b>Dearest route</b></td><td>Non-branded search at <b>about $149</b></td>
+<td>Tap-to-call emergency at <b>$75 to $140</b></td></tr>
+<tr><td><b>What it is good at</b></td><td><b>Catching someone who already has the
+problem</b></td><td><b>Reaching someone before they have it</b></td></tr>
+</tbody></table>
+<p style="margin-top:12px">&#9888;&#9888; <b>These are industry averages across hundreds of
+contractors, not predictions for you.</b> <b>Your own numbers will differ</b>, and until the
+tracking is installed <b>nobody can tell you what yours are, including us.</b></p></div>
+
+<div class="card bad"><span class="lab">&#128308;&#128308; The recommendation, in one line</span>
+<p><b>Meta in winter to create demand. Google in summer to capture it.</b></p>
+<p>&#11088; <b>Meta costs roughly a quarter of Google per click and less than half per lead</b>,
+which matters most in the months when you can least afford waste. <b>And the winter product,
+maintenance plans, is exactly what Meta is cheapest at: $40 to $80 a sign-up.</b></p>
+<p>&#11088; <b>Then in March the money moves to Google</b>, because by then the demand exists and
+the job is simply to be the firm that answers.</p>
+<p>&#9888; <b>Local Services Ads are the cheapest Google route at about $51 a lead, but they are
+pay-per-lead</b>, and <b>you have been burned by pay-per-lead twice</b>. &#11088; The difference
+is that Google lets you dispute and reclaim a bad one, which neither of your previous suppliers
+did. <b>We would not start there, but it is worth revisiting once you trust the numbers.</b></p>
+</div>
+
+<div class="card bad"><span class="lab">&#128308;&#128308; The point of winter, which is not
+winter revenue</span>
+<p>&#11088;&#11088; <b>Winter is not when you earn. It is when you fill the summer book.</b></p>
+<p>You take <b>one or two calls a day in January and ten a day in July</b>. &#9888; <b>No
+advertising budget changes that</b>, and we are not going to pretend otherwise.</p>
+<p>&#128308; <b>So every winter campaign below has the same job: put customers on your calendar
+for a season that has not started yet</b>, so that when May arrives you are not starting from
+zero and competing for emergencies at the dearest cost per lead of the year.</p></div>
+
+<div class="card"><span class="lab">&#11088; The winter offers, November to February</span>
+<table><thead><tr><th>Offer</th><th>Why it works in your slow months</th>
+<th>Platform</th></tr></thead><tbody>
+
+<tr><td><b>1. The maintenance plan.</b> An annual agreement: two visits a year, priority
+booking, a discount on repairs</td>
+<td>&#11088;&#11088; <b>The strongest card you hold, and only a busy firm can play it.</b> In a
+July heatwave everyone waits three days for a technician. <b>Selling "you go to the front of the
+queue in July" in January is worth real money to a homeowner</b>, and it costs you nothing in a
+month when the vans are quiet. <b>It also turns winter into recurring revenue</b></td>
+<td>Meta. <b>$40 to $80 a sign-up</b></td></tr>
+
+<tr><td><b>2. The heating tune-up or safety check.</b> A low-ticket winter visit</td>
+<td>&#128308;&#128308; <b>The money is not the tune-up, it is what the tune-up finds.</b> A
+technician in the house in January is the cheapest way there is to discover a system that will
+not survive the summer. <b>That becomes a spring replacement booked before the rush</b></td>
+<td>Meta. <b>$25 to $55 a form fill</b>, the cheapest lead in the table</td></tr>
+
+<tr><td><b>3. Beat-the-rush replacement, booked winter, fitted spring</b></td>
+<td>&#11088; <b>February to April is a recognised replacement window in the States</b>, because
+tax refunds land. &#11088; <b>And you can offer something you genuinely cannot in July: a
+scheduled install date, no emergency premium, and your pick of equipment</b> rather than whatever
+is on the truck</td>
+<td>Meta into winter, <b>switching to Google from March</b></td></tr>
+
+<tr><td><b>4. Commercial maintenance contracts</b> for restaurants, convenience stores and
+retail with refrigeration</td>
+<td>&#9888; <b>Texas refrigeration failures peak May to August</b>, when heat pushes compressors
+past design capacity. <b>A restaurant that loses a walk-in in July loses its stock.</b> Selling
+that protection in January is easy; selling it in July is too late. <b>Recurring, commercial, and
+it does not care about the weather today</b></td>
+<td>Google, low budget. <b>Business owners search for this</b></td></tr>
+
+<tr><td><b>5. Mini splits for garages, additions and home offices</b></td>
+<td>&#11088; <b>You are a Trane and Mitsubishi mini split dealer, and this is a planned purchase
+rather than an emergency.</b> People plan home projects in winter. <b>It is the one genuinely
+seasonal-proof install you sell</b></td>
+<td>Meta. Visual, and it sells on the photograph</td></tr>
+</tbody></table></div>
+
+<div class="card"><span class="lab">The in-season campaigns, March to October</span>
+<ul>
+<li><b>Google search, emergency intent.</b> <i>ac repair graham tx</i>, <i>air conditioner not
+working near me</i>, <i>emergency ac repair</i>. &#9888; <b>Dearest leads of the year at around
+$149 on non-branded search, and worth every cent in July</b></li>
+<li><b>Google search, replacement intent.</b> <i>ac replacement cost</i>, <i>new ac unit
+graham</i>, <i>mini split installation</i>. Longer consideration, far higher ticket</li>
+<li><b>Branded search, all year, tiny budget.</b> &#11088; <b>About $34 a lead, the cheapest
+thing on this page.</b> It stops a competitor buying your name from someone who was already
+looking for you. <b>Sixteen years of word of mouth makes this unusually valuable for you</b></li>
+<li><b>Meta retargeting.</b> Anyone who visited and did not call. <b>Cheap, and only possible
+once the pixel you already own is actually wired up</b></li>
+<li><b>Meta to your maintenance plan list.</b> The people who bought a plan in January are the
+warmest replacement prospects you have in July</li>
+</ul></div>
+
+<div class="card warn"><span class="lab">&#9888; The order it has to happen in</span>
+<ul>
+<li><b>Now, October.</b> Tracking installed, forms on every page, heating and maintenance pages
+built. <b>Six to eight weeks before a season is the accepted window, and for winter heating that
+window is now</b></li>
+<li><b>November to February.</b> Meta on maintenance plans and tune-ups. Small budget.
+<b>Measuring, not harvesting</b></li>
+<li><b>March.</b> Budget moves to Google. <b>Six to eight weeks before your season, same
+rule</b></li>
+<li><b>May to August.</b> Full weight on Google, emergency and replacement. The commercial
+refrigeration page is ranking by now, which is the point of building it in winter</li>
+<li><b>September.</b> Review everything against real numbers, which by then you will have for the
+first time</li>
+</ul></div>
+
+<div class="card note"><p>&#9888; <b>Cost figures on this page are published 2026 HVAC industry
+benchmarks and are cited as such.</b> <b>They are not forecasts for Lansing Mechanical, and
+nothing here promises a number of leads, jobs or revenue.</b> &#11088; <b>Your own numbers cannot
+be known until the tracking is installed</b>, which is the first item in the plan for exactly
+that reason.</p></div>
+</div></section><footer>
+ <div class="wrap">
+ Prepared by Andrei Givero &middot; AG1 Consulting &middot; 30 September 2026, for Kristina Lansing at Lansing
+ Mechanical LLC, 921 Fourth St, Graham, TX 76450.
+ <b>Every statement about lansingmechanicaltx.com was read from that site's own served pages and published
+ sitemap on 30 September 2026 and is reproducible. Items recorded as &ldquo;not found&rdquo; describe what a
+ static read of the served HTML returned and are not proof of absence.</b>
+ <b>&#9888; The concept site is a design proposal. It is NOT live and NOT published as Lansing Mechanical's
+ website, and every customer and review on it is a marked placeholder containing no invented content.</b>
+ <b>&#9888; AG1 has NOT seen or assessed the work of any previous lead generation supplier. Nothing in this set
+ of documents describes it.</b>
+ <b>&#9888; Competitor observations describe those firms' own served pages on the date measured and are not
+ statements about their quality, pricing or performance.</b>
+ <b>&#9888; No ranking, enquiry, call, booking or revenue outcome is promised, forecast or guaranteed anywhere in
+ these documents.</b>
+ Product and company names are used for identification only and belong to their respective owners.
+ </div>
+</footer>
+</body></html>
